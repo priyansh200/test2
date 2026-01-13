@@ -19,28 +19,56 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center pt-20 px-6 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-600/10 via-transparent to-purple-600/10 pointer-events-none"></div>
-        <div className="absolute top-20 left-10 w-72 h-72 bg-blue-600/20 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-10 w-72 h-72 bg-purple-600/20 rounded-full blur-3xl"></div>
+      <section className="min-h-screen flex items-center justify-center pt-20 px-6 relative overflow-hidden bg-gradient-to-br from-slate-950 via-blue-950 to-slate-950">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_50%,rgba(59,130,246,0.15),transparent_50%)] pointer-events-none"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_80%,rgba(168,85,247,0.15),transparent_50%)] pointer-events-none"></div>
         
-        <div className="max-w-4xl mx-auto text-center relative z-10">
-          <h1 className="text-7xl md:text-8xl font-bold mb-6 leading-tight">
-            Build the<br />
-            <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-600 bg-clip-text text-transparent">
-              Future Today
+        <div className="max-w-5xl mx-auto text-center relative z-10">
+          <div className="mb-8 inline-block">
+            <span className="text-sm font-semibold text-blue-300 bg-blue-950/50 px-4 py-2 rounded-full border border-blue-800">
+              🚀 Next Generation Platform
+            </span>
+          </div>
+          
+          <h1 className="text-6xl sm:text-7xl lg:text-8xl font-black mb-8 leading-tight tracking-tight">
+            <span className="block text-white mb-2">Elevate Your</span>
+            <span className="block bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
+              Web Development Game
             </span>
           </h1>
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Create stunning, high-performance web applications with our cutting-edge tools and frameworks. Transform your ideas into reality.
+          
+          <p className="text-lg sm:text-xl text-gray-300 mb-6 max-w-3xl mx-auto leading-relaxed">
+            Harness the power of modern web technologies with our comprehensive development platform. 
+            Build scalable, performant applications faster than ever before with intelligent tools and seamless workflows.
           </p>
-          <div className="flex gap-4 justify-center">
-            <button className="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full font-semibold hover:shadow-2xl hover:shadow-blue-500/50 transition transform hover:scale-105">
-              Get Started Free
+          
+          <p className="text-base text-gray-400 mb-10 max-w-2xl mx-auto">
+            Used by developers at leading tech companies worldwide to ship products 10x faster.
+          </p>
+          
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+            <button className="group px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-lg font-bold text-white text-lg hover:shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 transform hover:scale-105 active:scale-95">
+              Start Building Now
+              <span className="ml-2 group-hover:translate-x-1 transition-transform inline-block">→</span>
             </button>
-            <button className="px-8 py-4 border border-white/30 rounded-full font-semibold hover:bg-white/10 transition">
-              Watch Demo
+            <button className="px-8 py-4 border-2 border-blue-500/50 rounded-lg font-bold text-white text-lg hover:bg-blue-600/20 transition-all duration-300 backdrop-blur-sm">
+              View Documentation
             </button>
+          </div>
+          
+          <div className="grid grid-cols-3 gap-6 pt-12 border-t border-white/10">
+            <div className="text-center">
+              <div className="text-3xl font-bold text-cyan-400 mb-2">10K+</div>
+              <div className="text-sm text-gray-400">Active Developers</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-blue-400 mb-2">99.99%</div>
+              <div className="text-sm text-gray-400">Uptime Guarantee</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-purple-400 mb-2">50M+</div>
+              <div className="text-sm text-gray-400">Requests Daily</div>
+            </div>
           </div>
         </div>
       </section>
