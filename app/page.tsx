@@ -25,22 +25,42 @@ export default function Home() {
         <div className="absolute bottom-20 right-10 w-72 h-72 bg-purple-600/20 rounded-full blur-3xl"></div>
         
         <div className="max-w-4xl mx-auto text-center relative z-10">
+          <div className="inline-block mb-6 px-4 py-2 bg-blue-500/20 border border-blue-400/50 rounded-full text-blue-300 text-sm font-semibold">
+            ✨ Welcome to the Next Generation of Web Development
+          </div>
           <h1 className="text-7xl md:text-8xl font-bold mb-6 leading-tight">
             Build the<br />
             <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-600 bg-clip-text text-transparent">
               Future Today
             </span>
           </h1>
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-300 mb-4 max-w-2xl mx-auto">
             Create stunning, high-performance web applications with our cutting-edge tools and frameworks. Transform your ideas into reality.
           </p>
-          <div className="flex gap-4 justify-center">
+          <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto">
+            Join 10,000+ developers who are already building amazing products with DevStudio.
+          </p>
+          <div className="flex gap-4 justify-center mb-12">
             <button className="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full font-semibold hover:shadow-2xl hover:shadow-blue-500/50 transition transform hover:scale-105">
               Get Started Free
             </button>
             <button className="px-8 py-4 border border-white/30 rounded-full font-semibold hover:bg-white/10 transition">
               Watch Demo
             </button>
+          </div>
+          <div className="flex justify-center gap-8 text-sm text-gray-400 pt-8 border-t border-white/10">
+            <div>
+              <div className="text-2xl font-bold text-white mb-1">99.9%</div>
+              <div>Uptime SLA</div>
+            </div>
+            <div>
+              <div className="text-2xl font-bold text-white mb-1">10K+</div>
+              <div>Happy Users</div>
+            </div>
+            <div>
+              <div className="text-2xl font-bold text-white mb-1">24/7</div>
+              <div>Support</div>
+            </div>
           </div>
         </div>
       </section>
