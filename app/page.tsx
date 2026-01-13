@@ -67,7 +67,7 @@ export default function Home() {
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-purple-400 mb-2">50M+</div>
-              <div className="text-sm text-gray-400">Requests Daily</div>
+              <div className="text-sm text-gray-400">Requests Daily for code</div>
             </div>
           </div>
         </div>
